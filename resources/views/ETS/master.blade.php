@@ -8,42 +8,60 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">Logo</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/pegawai">004</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <!-- Links -->
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link 1</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link 2</a>
-    </li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
 
-    <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Dropdown link
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Link 1</a>
-        <a class="dropdown-item" href="#">Link 2</a>
-        <a class="dropdown-item" href="#">Link 3</a>
-      </div>
-    </li>
-  </ul>
-</nav>
+        <li class="nav-item">
+          <a class="nav-link" href="/">ETS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tugas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/pegawai">Pegawai</a>
+            <a class="dropdown-item" href="/keranjangbelanja">Keranjang Belanja</a>
+            <a class="dropdown-item" href="/nilai">Nilai Kuliah</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Materi
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/p1">Materi 1</a>
+        <a class="dropdown-item" href="/p2a">Materi 2</a>
+        <a class="dropdown-item" href="/p2b">Materi 3</a>
+        <a class="dropdown-item" href="/p3">Materi 4</a>
+        <a class="dropdown-item" href="/p4">Materi 5</a>
+        <a class="dropdown-item" href="/p5">Materi 6</a>
+        <a class="dropdown-item" href="/p6a">Materi 7</a>
+        <a class="dropdown-item" href="/p6b">Materi 8</a>
+        <a class="dropdown-item" href="/p7">Materi 9</a>
+        <a class="dropdown-item" href="/p8">Materi 10</a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
 <br>
 
 <div class="container">
-    @yield('konten')
+  @yield('konten')
 </div>
 
 @include('ETS/footer')
-
+<br>
 </body>
 </html>
