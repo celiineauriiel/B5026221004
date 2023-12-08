@@ -95,3 +95,13 @@ Route::get('/keranjangbelanja/batal/{id}','App\Http\Controllers\KeranjangControl
 Route::get('nilai', 'App\Http\Controllers\NilaiKuliahController@DB');
 Route::get('nilai/tambah', 'App\Http\Controllers\NilaiKuliahController@tambah');
 Route::post('nilai/store', 'App\Http\Controllers\NilaiKuliahController@store');
+
+//tugas pra uas
+Route::get('/sepeda','App\Http\Controllers\SepedaController@index');
+Route::get('/sepeda/tambah','App\Http\Controllers\SepedaController@tambah');
+Route::post('/sepeda/store','App\Http\Controllers\SepedaController@store');
+Route::get('/sepeda/edit/{id}','App\Http\Controllers\SepedaController@edit');
+Route::post('/sepeda/update','App\Http\Controllers\SepedaController@update');
+Route::get('/sepeda/hapus/{id}','App\Http\Controllers\SepedaController@hapus');
+Route::get('/sepeda/cari','App\Http\Controllers\SepedaController@cari');
+Route::get('sepeda/view/{id}', 'App\Http\Controllers\SepedaController@view');

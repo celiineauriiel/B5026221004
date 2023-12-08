@@ -32,6 +32,7 @@
             <a class="dropdown-item" href="/pegawai">Pegawai</a>
             <a class="dropdown-item" href="/keranjangbelanja">Keranjang Belanja</a>
             <a class="dropdown-item" href="/nilai">Nilai Kuliah</a>
+            <a class="dropdown-item" href="/sepeda">Sepeda</a>
           </div>
         </li>
         <li class="nav-item dropdown">
