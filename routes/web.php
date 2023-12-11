@@ -105,3 +105,5 @@ Route::post('/sepeda/update','App\Http\Controllers\SepedaController@update');
 Route::get('/sepeda/hapus/{id}','App\Http\Controllers\SepedaController@hapus');
 Route::get('/sepeda/cari','App\Http\Controllers\SepedaController@cari');
 Route::get('sepeda/view/{id}', 'App\Http\Controllers\SepedaController@view');
+
+Route::get('/counter','App\Http\Controllers\CounterController@index');
