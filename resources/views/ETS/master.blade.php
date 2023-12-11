@@ -24,6 +24,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/">ETS</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/karyawan">Karyawan</a>
+          </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Tugas

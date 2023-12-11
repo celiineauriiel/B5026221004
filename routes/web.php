@@ -107,3 +107,8 @@ Route::get('/sepeda/cari','App\Http\Controllers\SepedaController@cari');
 Route::get('sepeda/view/{id}', 'App\Http\Controllers\SepedaController@view');
 
 Route::get('/counter','App\Http\Controllers\CounterController@index');
+
+Route::get('/karyawan','App\Http\Controllers\KaryawanController@index');
+Route::get('/karyawan/tambah','App\Http\Controllers\KaryawanController@tambah');
+Route::post('/karyawan/store','App\Http\Controllers\KaryawanController@store');
+Route::get('/karyawan/hapus/{id}','App\Http\Controllers\KaryawanController@hapus');
