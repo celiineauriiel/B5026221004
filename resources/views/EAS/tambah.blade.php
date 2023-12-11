@@ -12,25 +12,25 @@
     <form action="/karyawan/store" method="post" class="form-horizontal">
         {{ csrf_field() }}
         <div class="form-group row">
-            <label for="kodepegawai" class="col-sm-1 col-form-label">Kode Pegawai</label>
+            <label for="kodepegawai" class="col-sm-2 col-form-label">Kode Pegawai</label>
             <div class="col-sm-10">
                 <input type="text" maxlength="5" required="required" class="form-control" placeholder="Masukkan Kode Pegawai" id="kodepegawai" name="kodepegawai">
             </div>
         </div>
         <div class="form-group row">
-            <label for="namalengkap" class="col-sm-1 col-form-label">Nama Lengkap</label>
+            <label for="namalengkap" class="col-sm-2 col-form-label">Nama Lengkap</label>
             <div class="col-sm-10">
                 <input type="text" maxlength="50" required="required" class="form-control" placeholder="Masukkan Nama Lengkap" id="namalengkap" name="namalengkap">
             </div>
         </div>
         <div class="form-group row">
-            <label for="divisi" class="col-sm-1 col-form-label">Divisi</label>
+            <label for="divisi" class="col-sm-2 col-form-label">Divisi</label>
             <div class="col-sm-10">
                 <input type="text" maxlength="20" required="required" class="form-control" placeholder="Divisi" id="divisi" name="divisi">
             </div>
         </div>
         <div class="form-group row">
-            <label for="departemen" class="col-sm-1 col-form-label">Departemen</label>
+            <label for="departemen" class="col-sm-2 col-form-label">Departemen</label>
             <div class="col-sm-10">
                 <input type="text" maxlength="20" required="required" class="form-control" placeholder="Masukkan Departemen" id="departemen" name="departemen">
             </div>
